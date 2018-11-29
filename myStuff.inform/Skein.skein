@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-27"/>
+  <item nodeId="node-1">
+    <command xml:space="preserve">myStuff</command>
+    <result xml:space="preserve">myStuff&#x000A;An Interactive Fiction by Akash Prasad&#x000A;Release 1 / Serial number 181107 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Hopkins Hall&#x000A; Welcome to Hopkins Hall! This hall is part of the Ikeberry complex, located on the west side of the UIUC's campus. There are four floors and each floor houses around a hundred people. There is the ARC building down SOUTH. There is the Ikeberry Dining hall up NORTHWEST. There is Green Street up NORTH of Ikeberry Dining hall. There is Loomis Lab EAST of Green Street. The Apple Store also happens to be NORTH of Green Street. There is ChopStix WEST of Apple Store. There is the ARC building down SOUTH. There is the Ikeberry Dining hall up NORTHWEST. There is Green Street up NORTH of Ikeberry Dining hall. There is Loomis Lab EAST of Green Street. The Apple Store also happens to be NORTH of Green Street. There is ChopStixs WEST of Apple Store. You start off with 10 energy units and you need them to move to place to place or to perform intensive actions. Make sure you eat food to keep replenishing yourself with energy units or you die and lose the game.&#x000A;&#x000A; There is a closed door in SOUTH. &#x000A;&#x000A;You can also see a superheated T-shirt, Advanced Algebraic Topology textbook, an iPhone Xs MAX, a Surface Book 2, Rishi, Oscar and a gym key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-8"/>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Sorry, you can't simply walk into the walls. There is nothing really interesting over there! Instead, you can go NORTHWEST to Ikeberry Dining Hall or SOUTH to ARC building.&#x000A;&#x000A;The time is 9:00 am.&#x000A;You now have 9 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">south]</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening ARC door)&#x000A;&#x000A;ARC building&#x000A;Welcome to the Activities and Recreational Center! This place offers pletora of things to do to stay active. There is a 50 meter swimming pool, weightlifting room, track turf, basketball courts, and many more (there is even a rock climbing wall!). There is a doorway to Hopkins Hall up NORTH. &#x000A;&#x000A; There is a closed door up NORTH.&#x000A;&#x000A;You can also see a Treadmill here.&#x000A;&#x000A;The time is 9:01 am.&#x000A;You now have 8 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Hopkins Hall&#x000A;&#x000A;&#x000A; There is a closed door in SOUTH. &#x000A;&#x000A;You can also see Advanced Algebraic Topology textbook, an iPhone Xs MAX, a Surface Book 2, Rishi, Oscar and a gym key here.&#x000A;&#x000A;The time is 9:02 am.&#x000A;You now have 7 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">northwest</command>
+    <result xml:space="preserve">Ikeberry Dining Hall&#x000A; Welcome to the Ikeberry Dining Hall! This place contains the largest dining hall on campus! In addition, there is the ikeberry library to study and there are some cafe shops like Caffinator and 57 North, were you can grab a quick bite and refuel yourself with coffee. There is a doorway to Green Street up NORTH and Hopkins Hall down SOUTHEAST. &#x000A;&#x000A;You can see a Pizza, a raw egg yolk, an Unsweetened Iced Tea, a milk and a coffee here.&#x000A;&#x000A;The time is 9:03 am.&#x000A;You now have 6 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">eat pizza</command>
+    <result xml:space="preserve">Congradulations! Now you have ingested 300 calories!&#x000A;You now have 7 energy units.&#x000A;&#x000A;The time is 9:04 am.&#x000A;You now have 6 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">northwest</command>
+    <result xml:space="preserve">Ikeberry Dining Hall&#x000A; Welcome to the Ikeberry Dining Hall! This place contains the largest dining hall on campus! In addition, there is the ikeberry library to study and there are some cafe shops like Caffinator and 57 North, were you can grab a quick bite and refuel yourself with coffee. There is a doorway to Green Street up NORTH and Hopkins Hall down SOUTHEAST. &#x000A;&#x000A;You can see a Pizza, a raw egg yolk, an Unsweetened Iced Tea, a milk and a coffee here.&#x000A;&#x000A;The time is 9:00 am.&#x000A;You now have 9 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">eat pizza</command>
+    <result xml:space="preserve">Congradulations! Now you have ingested 300 calories!&#x000A;You now have 11 energy units.&#x000A;&#x000A;The time is 9:01 am.&#x000A;You now have 10 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Green Street&#x000A; Welcome to Green Street! This downtown Champaign is were there is plenty of restaurants and coffeeshops to choose from, next to some of the tallest buildings in town. A great place to spend a weekend night with friends. There is a dorrway to Ikeberry Dining Hall down SOUTH. The Apple Store also happens to be NORTH of Green Street. &#x000A;&#x000A;You can see a group of friends and a Panda Express (empty) here.&#x000A;&#x000A;The time is 9:02 am.&#x000A;You now have 9 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Cornfield1&#x000A;The Apple store is in Chicago and you are in the middle of nowhere. You have to pass through various Cornfields by going futher north.&#x000A;&#x000A;The time is 9:03 am.&#x000A;You now have 8 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Cornfield2&#x000A;Keep going!&#x000A;&#x000A;The time is 9:04 am.&#x000A;You now have 7 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Cornfield3&#x000A;Keep going!&#x000A;&#x000A;The time is 9:05 am.&#x000A;You now have 6 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Cornfield4&#x000A;Almost there...&#x000A;&#x000A;The time is 9:06 am.&#x000A;You now have 5 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">norht</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">northj</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Apple Store&#x000A; You have finally made it! Here, there is various apple products you can see and demo on. There are iPhones, iPads, Apple Watches, Apple TVs and Macs. There are various accessories such as HomePods, BeatsSolo, etc. Please come try all of them out and purchase if you like it! &#x000A;&#x000A;The time is 9:07 am.&#x000A;You now have 4 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">examine iPhone</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;The time is 9:08 am.&#x000A;You now have 3 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">north]</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;Hey! You are running out of energy, go to the nearest food place to replenish your energy units.&#x000A;&#x000A;The time is 9:09 am.&#x000A;You now have 2 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">norht</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;The time is 9:10 am.&#x000A;You now have 1 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;The time is 9:11 am.&#x000A;You now have 0 energy units left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&#x000A;&#x000A;    *** You ran out of energy units. You have died. Game over. ***&#x000A;&#x000A;&#x000A;In that game you scored 0 out of a possible 0, in 13 turns.&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">interrogate Rishi</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">ask rishi</command>
+    <result xml:space="preserve">What do you want to ask Rishi about?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
