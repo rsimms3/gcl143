@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-3"/>
+  <item nodeId="node-0">
+    <command xml:space="preserve">Sample codes</command>
+    <result xml:space="preserve">Sample codes&#x000A;An Interactive Fiction by Akash Prasad&#x000A;Release 1 / Serial number 181203 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Cell&#x000A;WARNING: This game contains mature themes including death, violence, and suicide.&#x000A;&#x000A;November 11. 1887. Chicago, Illinois. &#x000A;&#x000A;You sit on your bunk in the Cook County Jail. Water drips from the ceiling. You focus on your breathing. You are alive. &#x000A;&#x000A;To the NORTH is a row of iron bars that keep you locked in this cell. Jail guards occasionally pass by your cell solemnly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1"/>
+    </children>
+  </item>
+  <item nodeId="node-1">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You press your body against the bars, they trap you inside your cell. You look out into the gallery of the jailhouse. There are two floors lined with cells of inmates. Guards walk along the catwalks and floor, looking into the cell as they pass. You hear a door swing open from the far end of the cell block.&#x000A;&#x000A;You watch as a swarm of officers enter the cell block and begin to file towards various cells. You hear the stairs rattle as they come up to the catwalk and come to your cell. The officer says "Mr Parsons, come with us."&#x000A;&#x000A;The officers handcuff you and take you by the arm, leading you down the catwalk and out of the cell block, into a holding room packed with police officers. Inside the room you find your friends AUGUST SPIES, GEORGE ENGEL, and ADOLPH FISCHER also in handcuffs. You are overjoyed to see your old friends, but saddened to see eachother in this state.  There is a door in the room that has a commotion going on behind it. It sounds like many people are behind the door.&#x000A;&#x000A;An officer uncuffs you and your friends. Another hands each of you a long white ROBE with a hood. He instructs you to WEAR the robe. &#x000A;holding cell&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">wear robe</command>
+    <result xml:space="preserve">(first taking robe)&#x000A;You and your friends slip into the robes. The officer puts your handcuffs back on. You hear the sounds of a crowd growing lounder from behind the door.&#x000A;&#x000A;You chatter with your friends about small things, but your mind is elsewhere. They also look nervous. You feel your sweat slowly soaking the robe. Your mind wanders to thinking about your friend Louis Lingg, who should be here, dressed in a white robe, with you today. He commited suicide by exploding a blasting cap in his mouth last night. He died slowly. You heard from a guard that before he died, he used his own blood to write one last message: &#x000A;&#x000A;"Hurray for Anarchy"&#x000A;&#x000A;You wish you could have said goodbye to your dear friend.&#x000A;&#x000A;A jail guard enters and nods at the others. The officers grab you and your friends, forcing you to your feet. They open the door and lead you into another cell block, packed with people who all fall silent and fix their eyes upen you and your friends.&#x000A;&#x000A;cat walk&#x000A;As you enter the room with your friends and a fleet of escorting jail guards, you see the crowd staring at you and wispering. The guards lead you up the catwalk. Engels begins to sing "La Marseillaise", the anthem of liberty. Quickly Fischer and Spies also begin to sing with him. You join in the singing as well. You have sung this song many times and the words slip out of your mouth naturally. However, your mind is in another place. You are thinking of what to say during your speech.&#x000A;You look out amongst the crowd to see if you can find your wife, LUCY PARSONS, but you are unable to see her amongst the crowd. You must follow the guards SOUTH.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">speak</command>
+    <result xml:space="preserve">You prepare your lungs to throw out your words to the staring crowd. As the eyes turn towards you you begin your oration. Suddenly though, you're falling.&#x000A;Your stomach swells to the roof of your mouth and the rope snaps your body out of it's freefall, swinging you around violently. You try to kick at the ground to get the pressure off your neck, but it is too far away. As you spin you see your three friends also kicking, kicking, kicking. Your mind and body fight, struggle, trying to get away from this danger you cannot escape. Death. As your vision fades, your kicking subsides. &#x000A;&#x000A;You stop spinning and your eyes fall upon the crowd. You see many weeping, others stare in horror, some stare without emotion. All are transfixed on your final moments. Their faces begin to slip into eachother. Their faces turn pale, and then the room bursts into light.&#x000A;&#x000A;White room&#x000A;You see your whole life infront of you. You are in an infinite white room, or an infinite plane. You may walk around and explore the events of your life.&#x000A; thats all folks, I'll code the rest later.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
