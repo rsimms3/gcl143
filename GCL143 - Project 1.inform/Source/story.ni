@@ -22,14 +22,17 @@ Understand "Work" as work.
 Jane Addams is a woman.
 The description of Jane Addams is "Jane Addams is a rather severe-looking woman. Her dark brown hair is tied back into a tidy bun, and her skin is pale from too many evening spent cooped inside. Her eyes are bright, however, and she smiles at you.".
 Jane Addams is in study.
+Understand "Jane" as Jane.
 
 Mary Kenney O’Sullivan is a woman.
 The description of Mary Kenney O’Sullivan is "Mary O’Sullivan is a pretty woman, with dark eyes and a bright smile. Her hair is messily tied back, and she is writing some sort of letter.".
 Mary Kenney O'Sullivan is in foyer.
+Understand "Mary" as Mary Kenney O'Sullivan.
 
 Ellen Gates Starr is a woman.
 The description of Ellen Gates Starr is "Ellen Starr is a woman with curly hair that she’s managed to wrangle into a tidy bun. You see her talking to Jane Addams, while she works on mending a dark red blouse. Jane Addams walks away soon after.".
 Ellen Gates Starr is in parlor.
+Understand "Ellen" as Ellen Gates Starr.
 
 random guy is a man.
 The description of random guy is "A tall white man, with dark brown hair rushes past you, carrying a small stack of books.".
@@ -56,7 +59,8 @@ Check talking to [something]:
 After reading a command when talkingTo is true:
 	if the player's command includes "[triggerword]":
 		now currentTriggerword is the triggerword understood;
-		talkingToPeople.
+		talkingToPeople;
+		stop the action.
 		
 Instead of talking to child:
 	say “I’m busy! Dolly and I are having a tea party!”;
@@ -71,21 +75,24 @@ Instead of talking to random lady:
 	stop the action.
 	
 Instead of talking to Ellen Gates Starr:
+	say "How can I help? [line break][italic type] Say a) Hi b) Who are you c) Where is Jane [roman type][line break]";
 	now talkingTo is true;
 	stop the action.
 	
 Instead of talking to Mary Kenney O’Sullivan:
+	say "How can I help? [line break][italic type] Say a) Hi b) Who are you c) Where is Jane [roman type][line break]";
 	now talkingTo is true;
 	stop the action.
 	
 Instead of talking to Jane Addams:
+	say "How can I help? [line break][italic type] Say a) Hi b) Who are you c) Can I get work [roman type][line break]";
 	now talkingTo is true;
 	stop the action.
 	
 To talkingToPeople:
 	if player is in parlor:
 		if currentTriggerword is greeting:
-			say “Hello. Are you looking for someone?”;
+			say “Hello. So how may I help?”;
 		if currentTriggerword is who:
 			say "Me? I am Ellen Gates Starr, co-founder of Hull House.”;
 		if currentTriggerword is where:
@@ -109,7 +116,7 @@ To talkingToPeople:
 Section 3 - Front Porch
 
 frontPorch is a room. 
-The description of frontPorch is "You look up at the imposing brick building in wonder. The east side of the building is shaded by tall, sturdy oak trees. The building is tall and imposing, with four stories. Windows allow you to peer into the building. You can see a woman sewing in a cozy looking armchair, and you avert your eyes to avoid being improper towards a lady. You walk towards the front door, and stand under the eaves, pausing before knocking on the wooden door.".
+The description of frontPorch is "You look up at the imposing brick building in wonder. The east side of the building is shaded by tall, sturdy oak trees. The building is tall and imposing, with four stories. Windows allow you to peer into the building. You can see a woman sewing in a cozy looking armchair, and you avert your eyes to avoid being improper towards a lady. You walk towards the front door, and stand under the eaves, pausing before knocking on the wooden door. (go inside to enter the Hull House)".
 
 tree is a thing in frontPorch.
 The description of tree is "These tall oak trees provide an ample amount of shade.".

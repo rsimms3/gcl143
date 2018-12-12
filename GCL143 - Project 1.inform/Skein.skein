@@ -1,168 +1,304 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-1">
+<Skein rootNode="node-164">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-142"/>
-  <item nodeId="node-1">
+  <activeNode nodeId="node-198"/>
+  <item nodeId="node-164">
     <command xml:space="preserve">GCL143 - Project 1</command>
-    <result xml:space="preserve">GCL143 - Project 1&#x000A;An Interactive Fiction by Sumuk Rao&#x000A;Release 1 / Serial number 181209 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;front porch&#x000A;You look up at the imposing brick building in wonder. The east side of the building is shaded by tall, sturdy oak trees. The building is tall and imposing, with four stories. Windows allow you to peer into the building. You can see a woman sewing in a cozy looking armchair, and you avert your eyes to avoid being improper towards a lady. You walk towards the front door, and stand under the eaves, pausing before knocking on the wooden door.&#x000A;&#x000A;You can see now the player, tree, windows, random lady, front door, door handle, blouse and street here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <result xml:space="preserve">GCL143 - Project 1&#x000A;An Interactive Fiction by Sumuk Rao&#x000A;Release 1 / Serial number 181211 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;front porch&#x000A;You look up at the imposing brick building in wonder. The east side of the building is shaded by tall, sturdy oak trees. The building is tall and imposing, with four stories. Windows allow you to peer into the building. You can see a woman sewing in a cozy looking armchair, and you avert your eyes to avoid being improper towards a lady. You walk towards the front door, and stand under the eaves, pausing before knocking on the wooden door. (go inside to enter the Hull House)&#x000A;&#x000A;You can see now the player, tree, windows, random lady, front door, door handle, blouse and street here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">GCL143 - Project 1&#x000A;An Interactive Fiction by Sumuk Rao&#x000A;Release 1 / Serial number 181209 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;front porch&#x000A;You look up at the imposing brick building in wonder. The east side of the building is shaded by tall, sturdy oak trees. The building is tall and imposing, with four stories. Windows allow you to peer into the building. You can see a woman sewing in a cozy looking armchair, and you avert your eyes to avoid being improper towards a lady. You walk towards the front door, and stand under the eaves, pausing before knocking on the wooden door.&#x000A;&#x000A;You can see now the player, tree, windows, random lady, front door, door handle, blouse and street here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
     <children>
-      <child nodeId="node-2"/>
-      <child nodeId="node-126"/>
+      <child nodeId="node-165"/>
+      <child nodeId="node-178"/>
+      <child nodeId="node-183"/>
     </children>
   </item>
-  <item nodeId="node-2">
+  <item nodeId="node-165">
     <command xml:space="preserve">talk to random lady</command>
     <result xml:space="preserve">I'm busy! I'm bringing these to Ms. Starr.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">I'm busy! I'm bringing these to Ms. Starr.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-131"/>
+      <child nodeId="node-166"/>
     </children>
   </item>
-  <item nodeId="node-131">
+  <item nodeId="node-166">
     <command xml:space="preserve">go inside</command>
     <result xml:space="preserve">foyer&#x000A;You walk into the foyer, stepping onto a pretty red rug. You can see a parlor to the EAST. The wooden floorboards creak beneath your feet, and a woman turns to face you.&#x000A;&#x000A;You can see Mary Kenney O'Sullivan, rug and floorboards here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">foyer&#x000A;You walk into the foyer, stepping onto a pretty red rug. You can see a parlor to the EAST. The wooden floorboards creak beneath your feet, and a woman turns to face you.&#x000A;&#x000A;You can see Mary Kenney O'Sullivan, rug and floorboards here.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-132"/>
+      <child nodeId="node-167"/>
     </children>
   </item>
-  <item nodeId="node-132">
+  <item nodeId="node-167">
     <command xml:space="preserve">talk to Mary Kenney O'Sullivan</command>
     <result xml:space="preserve">&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-133"/>
+      <child nodeId="node-168"/>
     </children>
   </item>
-  <item nodeId="node-133">
+  <item nodeId="node-168">
     <command xml:space="preserve">hello</command>
     <result xml:space="preserve">Oh, hello.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Oh, hello.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-134"/>
+      <child nodeId="node-169"/>
     </children>
   </item>
-  <item nodeId="node-134">
+  <item nodeId="node-169">
     <command xml:space="preserve">where is jane addams</command>
     <result xml:space="preserve">Jane? Oh, I think she's in the parlor, somewhere.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Jane? Oh, I think she's in the parlor, somewhere.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-135"/>
+      <child nodeId="node-170"/>
     </children>
   </item>
-  <item nodeId="node-135">
+  <item nodeId="node-170">
     <command xml:space="preserve">who are you</command>
     <result xml:space="preserve">I am Mary O'Sullivan. Maybe you've heard of me? I, and some other women, are working hard for workers" rights.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">I am Mary O'Sullivan. Maybe you've heard of me? I, and some other women, are working hard for workers" rights.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-136"/>
+      <child nodeId="node-171"/>
     </children>
   </item>
-  <item nodeId="node-136">
+  <item nodeId="node-171">
     <command xml:space="preserve">go eat</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-137"/>
+      <child nodeId="node-172"/>
     </children>
   </item>
-  <item nodeId="node-137">
+  <item nodeId="node-172">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">parlor&#x000A;You wander into the parlor, and see a square table and a few chairs nestled around it. The light blue walls and cream-colored curtains make the room feel bright and inviting. The carpet beneath your feet is comfortable, and you can feel warmth emitting from the roaring fire.&#x000A;&#x000A;You can see Ellen Gates Starr, parlor table, chairs, fireplace, carpet and curtains here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">parlor&#x000A;You wander into the parlor, and see a square table and a few chairs nestled around it. The light blue walls and cream-colored curtains make the room feel bright and inviting. The carpet beneath your feet is comfortable, and you can feel warmth emitting from the roaring fire.&#x000A;&#x000A;You can see Ellen Gates Starr, parlor table, chairs, fireplace, carpet and curtains here.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-138"/>
+      <child nodeId="node-173"/>
     </children>
   </item>
-  <item nodeId="node-138">
+  <item nodeId="node-173">
     <command xml:space="preserve">talk to ellen gates starr</command>
     <result xml:space="preserve">&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-139"/>
+      <child nodeId="node-174"/>
     </children>
   </item>
-  <item nodeId="node-139">
+  <item nodeId="node-174">
     <command xml:space="preserve">hi</command>
     <result xml:space="preserve">Hello. Are you looking for someone?&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Hello. Are you looking for someone?&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-140"/>
+      <child nodeId="node-175"/>
     </children>
   </item>
-  <item nodeId="node-140">
+  <item nodeId="node-175">
     <command xml:space="preserve">who are you</command>
     <result xml:space="preserve">Me? I am Ellen Gates Starr, co-founder of Hull House.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Me? I am Ellen Gates Starr, co-founder of Hull House.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-141"/>
+      <child nodeId="node-176"/>
     </children>
   </item>
-  <item nodeId="node-141">
+  <item nodeId="node-176">
     <command xml:space="preserve">where is jane addams</command>
     <result xml:space="preserve">Hmmm, I'm not sure where Ms. Addams is right now. You should try her study. Which is to the west.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Hmmm, I'm not sure where Ms. Addams is right now. You should try her study. Which is to the west.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-142"/>
+      <child nodeId="node-177"/>
     </children>
   </item>
-  <item nodeId="node-142">
+  <item nodeId="node-177">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">study&#x000A;You step into Jane's dimly lit study. It smells strongly of wood and paper and there is a gentle crackling coming from the fire. There is a large window over Jane's wooden desk, but little sunlight is shining through. Piles and piles of papers and books line her desk. Jane is sitting in a soft chair facing the fire, gripping a letter, and she turns to face you when she hears you come in.&#x000A;&#x000A;You can see Jane Addams, bookshelf, books, desk, papers, chair and fire here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">study&#x000A;You step into Jane's dimly lit study. It smells strongly of wood and paper and there is a gentle crackling coming from the fire. There is a large window over Jane's wooden desk, but little sunlight is shining through. Piles and piles of papers and books line her desk. Jane is sitting in a soft chair facing the fire, gripping a letter, and she turns to face you when she hears you come in.&#x000A;&#x000A;You can see Jane Addams, bookshelf, books, desk, papers, chair and fire here.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-126">
+  <item nodeId="node-178">
     <command xml:space="preserve">talk to Ellen Gates Starr</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-127"/>
+      <child nodeId="node-179"/>
     </children>
   </item>
-  <item nodeId="node-127">
+  <item nodeId="node-179">
     <command xml:space="preserve">Hi</command>
     <result xml:space="preserve">Hello. Are you looking for someone?&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
-      <child nodeId="node-128"/>
-      <child nodeId="node-129"/>
+      <child nodeId="node-180"/>
+      <child nodeId="node-181"/>
     </children>
   </item>
-  <item nodeId="node-128">
+  <item nodeId="node-180">
     <command xml:space="preserve">hello</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-129">
+  <item nodeId="node-181">
     <command xml:space="preserve">Hi</command>
     <result xml:space="preserve">Hello. Are you looking for someone?&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-130"/>
+      <child nodeId="node-182"/>
     </children>
   </item>
-  <item nodeId="node-130">
+  <item nodeId="node-182">
     <command xml:space="preserve">stop talking to Ellen Gates Starr</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-183">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">foyer&#x000A;You walk into the foyer, stepping onto a pretty red rug. You can see a parlor to the EAST. The wooden floorboards creak beneath your feet, and a woman turns to face you.&#x000A;&#x000A;You can see Mary Kenney O'Sullivan, rug and floorboards here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-184"/>
+      <child nodeId="node-185"/>
+      <child nodeId="node-194"/>
+    </children>
+  </item>
+  <item nodeId="node-184">
+    <command xml:space="preserve">talk to Mary Kenney O'Sullivan</command>
+    <result xml:space="preserve">How can I help? &#x000A; Say a) Hi b) Who are you c) Where is Jane &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-185">
+    <command xml:space="preserve">talk to Mary</command>
+    <result xml:space="preserve">How can I help? &#x000A; Say a) Hi b) Who are you c) Where is Jane &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-186"/>
+    </children>
+  </item>
+  <item nodeId="node-186">
+    <command xml:space="preserve">hi</command>
+    <result xml:space="preserve">Oh, hello.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-187"/>
+      <child nodeId="node-189"/>
+    </children>
+  </item>
+  <item nodeId="node-187">
+    <command xml:space="preserve">hello</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-188"/>
+    </children>
+  </item>
+  <item nodeId="node-188">
+    <command xml:space="preserve">who are you</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-189">
+    <command xml:space="preserve">who are you</command>
+    <result xml:space="preserve">I am Mary O'Sullivan. Maybe you've heard of me? I, and some other women, are working hard for workers" rights.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-190"/>
+    </children>
+  </item>
+  <item nodeId="node-190">
+    <command xml:space="preserve">where is jane</command>
+    <result xml:space="preserve">Jane? Oh, I think she's in the parlor, somewhere.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-191"/>
+    </children>
+  </item>
+  <item nodeId="node-191">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">parlor&#x000A;You wander into the parlor, and see a square table and a few chairs nestled around it. The light blue walls and cream-colored curtains make the room feel bright and inviting. The carpet beneath your feet is comfortable, and you can feel warmth emitting from the roaring fire.&#x000A;&#x000A;You can see Ellen Gates Starr, parlor table, chairs, fireplace, carpet and curtains here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-192"/>
+    </children>
+  </item>
+  <item nodeId="node-192">
+    <command xml:space="preserve">talk to ellen</command>
+    <result xml:space="preserve">How can I help? &#x000A; Say a) Hi b) Who are you c) Where is Jane &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-193"/>
+    </children>
+  </item>
+  <item nodeId="node-193">
+    <command xml:space="preserve">hi</command>
+    <result xml:space="preserve">Hello. Are you looking for someone?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-194">
+    <command xml:space="preserve">talk to mary</command>
+    <result xml:space="preserve">How can I help? &#x000A; Say a) Hi b) Who are you c) Where is Jane &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-195"/>
+    </children>
+  </item>
+  <item nodeId="node-195">
+    <command xml:space="preserve">hi</command>
+    <result xml:space="preserve">Oh, hello.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-196"/>
+    </children>
+  </item>
+  <item nodeId="node-196">
+    <command xml:space="preserve">who are you</command>
+    <result xml:space="preserve">I am Mary O'Sullivan. Maybe you've heard of me? I, and some other women, are working hard for workers" rights.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-197"/>
+    </children>
+  </item>
+  <item nodeId="node-197">
+    <command xml:space="preserve">where is jane</command>
+    <result xml:space="preserve">Jane? Oh, I think she's in the parlor, somewhere.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-198"/>
+    </children>
+  </item>
+  <item nodeId="node-198">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">parlor&#x000A;You wander into the parlor, and see a square table and a few chairs nestled around it. The light blue walls and cream-colored curtains make the room feel bright and inviting. The carpet beneath your feet is comfortable, and you can feel warmth emitting from the roaring fire.&#x000A;&#x000A;You can see Ellen Gates Starr, parlor table, chairs, fireplace, carpet and curtains here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
